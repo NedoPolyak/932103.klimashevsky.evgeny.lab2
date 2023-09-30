@@ -1,0 +1,38 @@
+* {
+    margin:0;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-column {
+    flex-shrink: 0;
+    width: 200px;
+    background-color: aqua;
+}
+
+.left-column-bar {
+    position: fixed;
+    width: 200px;
+    height: 100px;
+    background-color:bisque;
+
+}
+
+.left-column-bar-items {
+    margin: 0;
+    padding: 0;
+}
+
+.content-column {
+    background-color: darkgray;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: limegreen;
+}

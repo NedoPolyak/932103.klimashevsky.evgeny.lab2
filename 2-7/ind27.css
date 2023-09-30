@@ -1,0 +1,54 @@
+*{
+    color:white;
+}
+
+.static-div {
+    position: static;
+}
+
+.relative-div {
+    position: relative;
+}
+
+.absolute-div {
+    position: absolute;
+}
+
+.fixed-div {
+    position: fixed;
+}
+
+.small {
+    height: 100px;
+    width: 200px;
+}
+
+.big {
+    height: 400px;
+    width: 600px;
+}
+.child{
+    height: 200px;
+    width: 300px;
+}
+
+.indianred{
+    background-color: indianred;
+}
+
+.darkred {
+    background-color: darkred;
+}
+.blueviolet{
+    background-color: blueviolet;
+}
+.indigo {
+    background-color: indigo;
+}
+.peru {
+    background-color: peru;
+}
+
+.forestgreen{
+    background-color: forestgreen;
+}
